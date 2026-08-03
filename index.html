@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bible Stories Through the Big Blue Eyes</title>
+  <meta name="description" content="Children's Bible stories by Malinda Dollack">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#home">Bible Stories Through the Big Blue Eyes</a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#books">Book Garden</a>
+    <a href="#sarah">Meet Sarah</a>
+    <a href="#author">Meet the Author</a>
+    <a href="#gift">Free Gifts</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#giving">Giving Back</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <span class="payment">♥ Only e-Transfer</span>
+</header>
+
+<main>
+  <section id="home" class="preview-hero">
+    <img src="assets/homepage-preview.png" alt="Bright colourful Bible Stories website welcome page">
+  </section>
+
+  <section id="books" class="section books">
+    <div class="heading">
+      <p class="eyebrow">Story Garden</p>
+      <h1>Explore All 12 Bible Stories</h1>
+      <p>Each story introduces children to Biblical truth through the adventures of adorable little animals.</p>
+    </div>
+    <div id="bookGrid" class="book-grid"></div>
+  </section>
+
+  <section id="sarah" class="section sarah">
+    <div class="two-column">
+      <img src="assets/sarah-character.png" alt="Sarah the Baby Sheep">
+      <div>
+        <p class="eyebrow">Meet Sarah</p>
+        <h2>Sarah the Baby Sheep</h2>
+        <p>Sarah is a cheerful black-and-white baby sheep with extremely large bright blue eyes, a pink collar, and a pink bell. Through Sarah's eyes, children experience the wonder of Jesus's birth and learn that Jesus is the Good Shepherd.</p>
+        <blockquote>“Hi! My name is Sarah! Would you like me to tell you about Baby Jesus?”</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="author" class="section author">
+    <div class="two-column author-grid">
+      <img src="assets/author-photo-original.png" alt="Malinda Dollack">
+      <article>
+        <p class="eyebrow">Meet the Author</p>
+        <h2>Hello! My name is Malinda Dollack.</h2>
+        <p>I am a retired piano teacher and registered nurse. I am married and have been blessed to share 37 wonderful years with my husband.</p>
+        <p>My world has always revolved around children. Before meeting my husband, God gave me the precious gift of Jennifer. My beautiful daughter, who had special needs, lived to the age of two and a half before God called her home to Heaven. I look forward to the glorious day when I will be reunited with my precious daughter.</p>
+        <p>My husband and I were unable to have more biological children. Then, over ten years ago, God performed another miracle. Through Facebook, my husband's daughter from a previous relationship, who had been placed for adoption as a baby, found us. Since then, God has blessed us with a wonderful family that includes our daughter, two grandsons, and four great-grandchildren. God truly works in amazing ways.</p>
+        <p>I was adopted as a baby, or as my parents lovingly told me, I was <strong>“chosen.”</strong> Today I know I have been chosen by God—not because of anything I have done, but entirely by His grace. He has chosen me to be His servant.</p>
+        <p>I have always believed that we can make a lasting difference in the lives of children, whether they are biologically ours or not. As a piano teacher, I had the privilege of teaching children as young as three years old. Although God did not bless me with more biological children, He has surrounded me with countless children to love, encourage, teach, and share the Gospel of Jesus Christ with.</p>
+        <p>Most importantly, I am a born-again, Spirit-filled follower of Jesus Christ. For many years, I believed my husband was the evangelist while I faithfully supported him through prayer. Recently, however, God reminded me that I, too, am an evangelist—as are all who follow Jesus Christ. We simply have different audiences.</p>
+        <p><strong>I prayerfully sought the Holy Spirit's guidance as I wrote these stories.</strong> It is my desire that these books introduce children to the love, truth, and saving grace of Jesus Christ through the eyes of adorable little animals.</p>
+        <blockquote class="verse">“Jesus said, ‘Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.’”<cite>Matthew 19:14 (NIV)</cite></blockquote>
+        <p>Thank you for your interest in these books. May God richly bless you and your family.</p>
+        <p class="signature">With love in Christ,<br><strong>Malinda Dollack</strong></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="gift" class="section gift">
+    <div>
+      <p class="eyebrow">Free Gift</p>
+      <h2>Sarah Bookmark</h2>
+      <p>Enjoy this colourful bookmark featuring Sarah and the message that Jesus loves you.</p>
+      <a class="button" href="assets/sarah-bookmark.png" download="sarah-new.png">Download the Free Bookmark</a>
+    </div>
+    <img src="assets/sarah-bookmark.png" alt="Sarah bookmark">
+  </section>
+
+  <section id="reviews" class="section reviews">
+    <div class="heading">
+      <p class="eyebrow">Reviews</p>
+      <h2>Share a Kind Review</h2>
+    </div>
+    <form id="reviewForm" class="form-card">
+      <label>Your name<input name="name" required></label>
+      <label>Book<select name="book" id="reviewBook" required></select></label>
+      <label>Stars<select name="rating"><option value="5">★★★★★</option><option value="4">★★★★☆</option><option value="3">★★★☆☆</option></select></label>
+      <label>Your review<textarea name="review" rows="4" required></textarea></label>
+      <button class="button" type="submit">Add Review</button>
+      <small>Reviews are saved on this device only.</small>
+    </form>
+    <div id="reviewList" class="review-list"></div>
+  </section>
+
+  <section id="giving" class="section giving">
+    <div class="giving-card">
+      <div class="giving-icon">💝</div>
+      <div>
+        <p class="eyebrow">Giving Back</p>
+        <h2>Helping Children and Families</h2>
+        <p>For every book sold, C$1.00 will be donated to Samaritan's Purse to help people in need and share the love of Jesus Christ.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="heading">
+      <p class="eyebrow">Contact</p>
+      <h2>Contact Malinda</h2>
+    </div>
+    <form id="contactForm" class="form-card">
+      <label>Your name<input name="name" required></label>
+      <label>Your email<input name="email" type="email" required></label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <button class="button" type="submit">Open Email Message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Jesus said, “Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.”</p>
+  <p>Matthew 19:14 (NIV)</p>
+  <p>© <span id="year"></span> Malinda Dollack</p>
+</footer>
+
+<div id="viewer" class="viewer"><button aria-label="Close">×</button><img alt=""><p></p></div>
+<script src="script.js"></script>
+</body>
+</html>
