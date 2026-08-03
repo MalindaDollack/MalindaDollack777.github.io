@@ -14,3 +14,4 @@
 /* Online-reader print deterrence. The future paid reader will use the .protected-reader class. */
 @media print{.protected-reader{display:none!important}.protected-reader-print-message{display:block!important}}
 .protected-reader-print-message{display:none}
+#bookGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px}#bookGrid .card{background:#fff;border:3px solid #e9b4ef;border-radius:18px;padding:12px;text-align:center;box-shadow:0 5px 15px #0002}#bookGrid img{width:100%;border-radius:12px}#bookGrid span{display:inline-block;margin-top:8px;background:#6c249b;color:#fff;padding:7px 12px;border-radius:20px}
