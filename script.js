@@ -1,7 +1,7 @@
 
 const oldBase="https://malindadollack.github.io/ChildrensJesusStories.github.io/";
 const books=[
-{name:"Sarah",title:"Sarah the Baby Sheep: My Shepherd, Jesus's Birth, The Christmas Story",ref:"Luke 2:1–20 (NIV)",img:"assets/sarah-book-cover.png"},
+{name:"Sarah",title:"Sarah the Baby Sheep: My Shepherd, Jesus's Birth, The Christmas Story",ref:"Luke 2:1–20 (NIV)",img:"sarah-book-cover.png"},
 {name:"Joy",title:"Joy the Fish: Relocates to a New Pond, Heaven Our New Pond",ref:"John 14:1–3 (NIV)",img:oldBase+"joy-new.png"},
 {name:"Wally",title:"Wally the Whale: Obeys God and Swallows a Human, Jonah",ref:"The Book of Jonah",img:oldBase+"wally-new.png"},
 {name:"Levi",title:"Levi the Lion: Listens to God and Laughs with Daniel",ref:"Daniel 6",img:oldBase+"levi-new.png"},
